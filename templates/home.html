@@ -1,65 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Oink Project</title>
-        <style> /* Add your CSS styles here */ 
-        h1 {
-            font-size: 40px;
-            font-family: 'Ubuntu';
-            font-weight: normal;
-            color: rgb(245, 132, 31);
-            text-align: center;
-        }
-        #banner {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-            height: 50%;
-            object-fit: cover;
-        }    
-        h2 {
-            ont-family: 'Ubuntu';
-            font-weight: normal;
-            color: rgb(245, 132, 31);
-            text-align: center;
-        }
-        .bodytext {
-            font-family: 'Ubuntu';
-            font-weight: normal;
-            color: rgb(100, 100, 100);
-            text-align: center;
-        }
-        #container {
-            max-width: 900px;
-            margin: 0 auto;
-            /*padding: 20px;*/
-        }
+        <title >Oink Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <style>
+            #banner {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
         </style>
     </head>
 <body>
-    <div id='container'>  
-    <h1>Oink Project</h1>
-    <img id='banner'src="https://cc1f6a4a-d411-4f2a-9cfa-b32340efd522-00-crekudvqoscg.worf.replit.dev/static/Banner_Pigs.jpg" width="480" height="287" alt="Banner">
-    <h2> Welcome to the Oink Project! </h2>
-        <p class='bodytext'> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. </p>
+    <div class='container-fluid'>  
+    <h1 class="text-center mt-5 mb-5">Oink Project</h1>
+    <img class='img-responsive' id='banner'src="https://cc1f6a4a-d411-4f2a-9cfa-b32340efd522-00-crekudvqoscg.worf.replit.dev/static/Banner_Pigs.jpg" alt="Banner">
+    <h2 class="text-center mt-5 mb-5"> Welcome to the Oink Project! </h2>
+        <p class="lead"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. </p>
     <div class="row">
         <div class="col">
-            <h3>Count</h3>
-            <p class='bodytext'>The main goal of this is to count the total of pigs in a farm by AI...</p>
-            <div style='text-align: center;'>
-                <button>See more</button>
+            <h3 class="text-center">Count</h3>
+            <p class="text-center">The main goal of this is to count the total of pigs in a farm by AI...</p>
+            <div class="text-center"">
+                <button class="btn btn-primary">See more</button>
             </div>
         </div>
         <div class="col">
-            <h3>Weight</h3>
-            <p class='bodytext'>The purpose of this initiative is to indicate the weight of the pigs by AI...</p>
-            <div style='text-align: center;'>
-                <button>See more</button>
-                <p>Copyright 2025, Moofwd Inc</p>
+            <h3 class="text-center">Weight</h3>
+            <p class="text-center">The purpose of this initiative is to indicate the weight of the pigs by AI...</p>
+            <div class="text-center">
+                <button class="btn btn-primary">See more</button>
             </div>
         </div>
     </div>
+        <div class="text-center">
+            <p class="mt-4">Copyright 2025, Moofwd Inc</p>
+        </div>
     </div>
 </body>    
 </html>
