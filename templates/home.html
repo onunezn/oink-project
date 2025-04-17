@@ -10,27 +10,39 @@
                 height: auto;
                 display: block;
             }
+            h1 {
+                color: rgb(245, 132, 31);
+            }
+            h2 {
+                color: rgb(245, 132, 31);
+            }
+            h3 {
+                color: rgb(245, 132, 31);
+            }
+            p {
+                   color: rgb(100, 100, 100);
+            }
         </style>
     </head>
 <body>
     <div class='container-fluid'>  
-    <h1 class="text-center mt-5 mb-5">Oink Project</h1>
+    <h1 class="text-center mt-5 mb-5">Welcome to the Oink Project</h1>
     <img class='img-responsive' id='banner'src="https://cc1f6a4a-d411-4f2a-9cfa-b32340efd522-00-crekudvqoscg.worf.replit.dev/static/Banner_Pigs.jpg" alt="Banner">
-    <h2 class="text-center mt-5 mb-5"> Welcome to the Oink Project! </h2>
+    <h2 class="text-center mt-5 mb-5"> Description of the Oink Project!</h2>
         <p class="lead"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. </p>
     <div class="row">
-        <div class="col">
-            <h3 class="text-center">Count</h3>
-            <p class="text-center">The main goal of this is to count the total of pigs in a farm by AI...</p>
-            <div class="text-center"">
-                <button class="btn btn-primary">See more</button>
+        <div class="col-md-6">
+            <h3 class="text-center">{{jobs[0].Project}}</h3>
+            <p class="text-center">{{jobs[0].Description}}</p>
+            <div class="text-center">
+                <button class="btn btn-warning">See more</button>
             </div>
         </div>
-        <div class="col">
-            <h3 class="text-center">Weight</h3>
-            <p class="text-center">The purpose of this initiative is to indicate the weight of the pigs by AI...</p>
+        <div class="col-md-6">
+            <h3 class="text-center">{{jobs[1].Project}}</h3>
+            <p class="text-center">{{jobs[1].Description}}</p>
             <div class="text-center">
-                <button class="btn btn-primary">See more</button>
+                <button class="btn btn-warning">See more</button>
             </div>
         </div>
     </div>
